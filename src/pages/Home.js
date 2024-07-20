@@ -10,6 +10,7 @@ const Home = () => {
   const [posts, setPosts] = useState([]);
   const [filteredPosts, setFilteredPosts] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
+  
 
   async function fetchProductData() {
     setLoading(true);
